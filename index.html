@@ -5,14 +5,162 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Honda CBR</title>
-    <link rel="stylesheet" href="style.css">
+
+    <!-- CSS Link -->
+    <link rel="stylesheet" href="styles.css">
+
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <!-- font awesome -->
+    <script src="https://kit.fontawesome.com/4efb0d1ba4.js" crossorigin="anonymous"></script>
 </head>
 <body>
-    <h1>This is Assignment 3</h1>
-    <h1>This is Assignment 3</h1>
+    <!-- Header Part Start -->
+    <header class="header-background">
+        <section class="container pb-5">
+            <div class="row">
+                <div class="col-lg-5 d-flex justify-content-center align-items-center">
+                    <div class="header-text">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus, deleniti?</p>
+                        <h1 class="fw-bolder">Honda CBR 300R</h1>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab sit cupiditate sint aspernatur ipsam enim hic perspiciatis explicabo porro, commodi quibusdam laborum obcaecati eius dignissimos.</p>
 
+                        <!-- Button trigger modal -->
+                        <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+                        Purchase
+                        </button>
+  
+                        <!-- Modal -->
+                        <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                            <div class="modal-dialog">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                    <h5 class="modal-title" id="staticBackdropLabel">Modal title</h5>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                    </div>
+                                    <div class="modal-body">
+                                    ...
+                                    </div>
+                                    <div class="modal-footer">
+                                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                                    <button type="button" class="btn btn-primary">Understood</button>
+                                </div>
+                            </div>
+                            </div>
+                        </div>
+                     </div>
+                </div>
+                <div class="col-lg-7 d-flex justify-content-center">
+                    <div class="">
+                        <img class="img-fluid" src="images/header-bike.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </section>
+    </header>
+    <!--main feature Bikes  -->
+    <main>
+        <section class="container p-4">
+            <div class="text-center">
+                <h1>Fetured Bikes 2021</h1>
+                <p>Bike Best Collection</p>
+            </div>
+            <div class="row g-5 p-5">
+                <div class="col-lg-4">
+                    <div>
+                        <img class="img-fluid" src="images/bike-1.png" alt="">
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div>
+                        <img class="img-fluid" src="images/bike-2.png" alt="">
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div>
+                        <img class="img-fluid" src="images/bike-3.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Features bikes end -->
+
+        <!-- Clint card start -->
+        <section class="container">
+            <div class="row row-cols-1 row-cols-md-3 g-5 p-3">
+                <div class="col">
+                  <div class="card h-100">
+                    <div class="d-flex justify-content-center align-items-center py-5">
+                        <img src="images/user-1.png" class="card-img-top rounded-circle w-50" alt="...">
+                    </div>
+                    <div class="card-body py-2">
+                      <h5 class="card-title text-center">Card title</h5>
+                      <p class="card-text text-center">This card has supporting text below as a natural lead-in to additional content</p>
+                    </div>
+                    <div class="text-center">
+                      <p>
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                          <i class="far fa-star"></i>
+                          <br>
+                          <p class="text-primary fw-bold">Regina Miles</p>
+                          <p>Banker</p>
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="card h-100">
+                    <div class="d-flex justify-content-center align-items-center py-5">
+                        <img src="images/user-2.png" class="card-img-top rounded-circle w-50" alt="...">
+                    </div>
+                    <div class="card-body py-2">
+                      <h5 class="card-title text-center">Card title</h5>
+                      <p class="card-text text-center">This card has supporting text below as a natural lead-in to additional content.</p>
+                    </div>
+                    <div class="text-center">
+                        <p>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="far fa-star"></i>
+                            <br>
+                            <p class="text-primary fw-bold">Regina Miles</p>
+                            <p>Banker</p>
+                        </p>
+                      </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="card h-100">
+                    <div class="d-flex justify-content-center align-items-center py-5 pb-1">
+                        <img src="images/user-3.jpg" class="card-img-top rounded-circle w-50 py-4" alt="...">
+                    </div>
+                    <div class="card-body py-2">
+                      <h5 class="card-title text-center">Card title</h5>
+                      <p class="card-text text-center">This card has supporting text below as a natural lead-in to additional content</p>
+                    </div>
+                    <div class="text-center">
+                        <p>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="far fa-star"></i>
+                            <br>
+                            <p class="text-primary fw-bold">Regina Miles</p>
+                            <p class="fw-bold">Banker</p>
+                        </p>
+                      </div>
+                  </div>
+                </div>
+              </div>
+        </section>
+    </main>
 
 
 
