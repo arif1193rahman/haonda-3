@@ -19,7 +19,7 @@
     border-radius: 5px;
 }
 /* main feature bike */
-.image-gray{
+.image-gray:hover{
     -webkit-filter: grayscale(100%);
     filter: grayscale(100%);
 }
