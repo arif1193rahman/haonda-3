@@ -1,6 +1,25 @@
 .header-background{
     background-color: #264653;
 }
+.main-text{
+    font-size: 3rem;
+}
 .header-text{
     color: white;
+}
+.btn-background-color{
+    background-color: #E76F51;
+    border-radius: 5px;
+}
+/* main feature bike */
+.image-gray{
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+}
+/* clint card */
+.main-text span{
+    color: #E76F51;
+}
+.fa-color p i{
+    color: #E76F51;
 }
